@@ -16,7 +16,7 @@ def m(m):
         if m.chat.type == 'private':
             banlist = redis.sismember('banlist_pmbot', '{}'.format(m.from_user.id))
             if m.text == '/start' or m.text == '/help':
-                bot.send_message(m.chat.id, 'پیام خودتونو ارسال کنید\n @taylor_team')
+                bot.send_message(m.chat.id, 'پیام خودتونو ارسال کنید\n @APADANA_TEAM')
                 redis.sadd('member_pmbot','{}'.format(m.from_user.id))
             if str(m.from_user.id) not in admin:
                 if str(banlist) == 'False':
@@ -177,4 +177,4 @@ def m(m):
         bot.send_message(m.chat.id, 'Error')
 
 bot.polling(True)
-#end 180 line by negative
+#end 180 line by @Ali6perspolisi
