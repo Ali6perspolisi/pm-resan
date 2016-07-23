@@ -3,7 +3,7 @@ PM Resan bot telegram
 
 
 ```sh
-git clone https://github.com/taylor-team/pm-resan
+git clone https://github.com/Ali6perspolisi/pm-resan
 cd pm-resan
 sudo apt-get install python-pip
 sudo pip install -r requirements.txt
